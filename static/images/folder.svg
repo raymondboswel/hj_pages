@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="64px" viewBox="0 0 70 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons/folder</title>
+    <g id="icons/folder" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M0,2 L20,2 L26,9.98708288 L58,9.98708288 L58,19.9709365 L9,19.9709365 L2.33935471,52.2704059 C2.32821772,52.3244124 2.3630412,52.3772071 2.41713512,52.3883261 C2.46674237,52.3985229 2.51615253,52.3700814 2.53216874,52.3221103 L12,23.9644779 L70,23.9644779 L58,60 L0,60 L0,2 Z" id="Path" fill="#FFFFFF"></path>
+    </g>
+</svg>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<script type="text/javascript" src="https://appx/web-view.min.js"></script>
+		<link rel="icon" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+
+		
+
+		<link rel="modulepreload" href="/./_app/start-8caa24b8.js">
+		<link rel="modulepreload" href="/./_app/chunks/vendor-43cd886a.js">
+		<link rel="modulepreload" href="/./_app/pages/__layout.svelte-d3be4637.js">
+		<link rel="modulepreload" href="/./_app/pages/home/__layout.svelte-6a0d594f.js">
+		<link rel="modulepreload" href="/./_app/pages/home/index.svelte-246b25fb.js">
+		<link rel="stylesheet" href="/./_app/assets/start-0826e215.css">
+		<link rel="stylesheet" href="/./_app/assets/pages/__layout.svelte-c3eb5476.css">
+
+		<script type="module">
+			import { start } from "/./_app/start-8caa24b8.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"","assets":"/."},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/./_app/pages/__layout.svelte-d3be4637.js"),
+						import("/./_app/pages/home/__layout.svelte-6a0d594f.js"),
+						import("/./_app/pages/home/index.svelte-246b25fb.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "/home",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<div id="svelte">
+
+
+<article class="h-screen flex flex-col"><section class="flex-grow"><article class="flex flex-col p-4 h-full"><section><h1 class="text-blue font-bold text-3xl">Hi Deon Du Toit, How can we help?</h1></section>
+	<section class="flex-grow"><textarea class="w-4/5" placeholder="Start typing your task here..."></textarea></section>
+	<section class="flex justify-between items-cent"><div class="flex items-center"><img class="h-8" src="/static/images/image.svg" alt="attach"></div>
+<div><button class="bg-blue rounded-3xl text-white p-3">Create Task +</button></div></section></article></section>
+	<nav class="flex justify-between p-3 border border-grey-light"><a href="/home" class="flex flex-col items-center"><img alt="home" class="h-8" src="/static/images/home.svg">
+	Home</a>
+<a href="/home/tasks" class="flex flex-col items-center"><img alt="home" class="h-8" src="/static/images/tasks.svg">Tasks</a>
+<a href="/home/transactions" class="flex flex-col items-center"><img alt="home" class="h-8" src="/static/images/transactions.svg">Transactions</a>
+<a href="/home/settings" class="flex flex-col items-center"><img alt="home" class="h-8" src="/static/images/settings.svg">Settings</a></nav></article>
+
+
+
+	
+</div>
+	</body>
+</html>
